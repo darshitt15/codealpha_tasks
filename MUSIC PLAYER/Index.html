@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="player">
+        <img src="covers/cover.jpg" alt="Album Cover" class="cover" />
+        <h2 id="title">KULOSA!</h2>
+        <audio id="audio" src="song.mp3"></audio>
+        <audio id="audio" src="likejennie.mp3"></audio>
+        <audio id="audio" src="attention.mp3"></audio>
+        <div class="controls">
+            <button id="prev">&#9664;</button>
+            <button id="play">&#9658;</button>
+            <button id="next">&#9654;</button>
+        <input type="range" id="progress" value="0" />
+    </div>
+
+       
+        <div class="time">
+            <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

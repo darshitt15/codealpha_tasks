@@ -1,0 +1,63 @@
+﻿body /* Reset and Body */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Player Container */
+.player {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 16px;
+    width: 400px;
+    text-align: center;
+}
+
+/* Cover Image */
+.cover {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+/* Song Title */
+h2 {
+    font-size: 1.2rem;
+    margin: 12px 0;
+}
+
+/* Control Buttons */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+    .controls button {
+        background: #1db954;
+        border: none;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+/* Progress Bar */
+#progress {
+    width: 100%;
+    margin-top: 10px;
+}
