@@ -1,2 +1,2 @@
 # codealpha_tasks
-A SIMPLE IMAGE GALLERY USING HTML/CSS/JAVASCRIPT...
+
